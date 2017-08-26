@@ -1,0 +1,11 @@
+We recapped what we did last week which is the hardware,software,binary system etc.,
+
+We defined what a bit is. A bit is one binary digit. Bits carry 4 different kinds of values. These are 00, 01, 10, 11.
+
+1 bit can carry 2 values. 2 bits van carry 4 values. 3 bits can carry 8 values. 4 bits can carry 16 values.
+5 bits, 32 values. 6 bits, 64 values. 7 bits, 128 values. 8 bits, 256 values.
+
+We also learned our computer details, and how much memory it stores through task manager.
+You can also find how much memory your laptop stores through the File Explorer.
+
+We started a "Hello World" java project.
