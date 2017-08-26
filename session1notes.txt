@@ -1,5 +1,6 @@
 We asked some questions about what it means by a Computer
 
+
 What is a Computer?
 
 Computer = Hardware + Software
