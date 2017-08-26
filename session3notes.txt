@@ -1,0 +1,110 @@
+What is git?
+
+Git is version control system.
+
+Git offers a lot of features that we might not use for this Java course. But working with git will allow us to learn many features that git offers.
+Git is being used by lot of companies around the world and it will be useful for us to learn it now so that it can help us in the long term.
+We will be using git for taking notes, exercises and any quizzes.
+
+What is github?
+
+Github is a website that allows people to write notes and code that is visible to people all around the world to help learn programming languages.
+
+Lets say you stopped learning Java for a little bit and you want to get back to it. Uploading notes and code onto github will help refresh the memory
+and get you back on track quickly.
+
+While this is a big use of github, it is also very important as many companies these days are looking at applicants profiles for github accounts 
+to see how much the applicant has learned.
+
+Now, to the process of adding things to your github repository:
+
+create an account
+
+Create a repository to your laptop
+
+A repository is collection of files (can contain folders)
+
+go to github.com and login. Go to repository
+
+for example a repository basicjava for my account will be https://github.com/tejaprakki/basicjava.git (see the pattern here)
+
+https://github.com/account name (here tejaprakki is my account)/repository name (basicjava).git
+
+on your laptop go to command prompt and type the following command
+
+cd \
+md gitlearn
+cd gitlearn
+git clone aboveurl
+like below
+clonerepository
+
+This will bring whatever is there in the github repository on to your machine.
+
+Note: When you have empty files in your repository you may see some warnings but thats normal.
+
+Adding new files
+
+Lets say you want to add new files in to this repository. For example you are creating session3notes.txt for this session.
+
+type, notepad session3notes.txt
+
+in notepad type your own notes
+
+use File->Save option to save
+
+Quit the notepad
+
+now type git status this command will show any changes done in red color indicating some changes you have done.
+
+type git add * to add these files to your local git (note: your file is still on your laptop and not your github repository).
+
+next type git status again to see all the files are shown in green.
+
+type git commit -m "some comment" This will put in to local git (again your file is still in on your machine).
+
+type git push origin master to finally push these changes to your github account (This puts it in the github account for everyone to see).
+
+Now, you can check your github account and see whether your newly added file is there.
+
+
+Modifying the files
+
+The procedure is same except instead of creating new file you will be modifying.
+
+open command prompt
+cd \
+cd gitlearn\basicjava
+notepad session3.txt
+modify with new notes
+File->Save
+quit notepad
+git status
+git add *
+git commit -m "comment"
+git push origin master
+Deleting the files
+
+use del command (or use file explorer)
+repeat the above git commands
+
+Making Eclipse Workspace to basicjava repository for checking the projects in to github
+
+We can make Eclipse to create java projects in the basicjava repository so that 
+whenever we create new project for our java learning we can easily check them.
+
+Eclipse
+
+Launch eclipse
+
+Depending upon your settings you may be asked to select the workspace when you open it.
+
+selectworkspace
+
+If not you can use File-> selectworkspace
+
+if you create a java project with this workspace, you can checkin to the github by following the above commands.
+Go ahead and create a Helloworld project which has been explained create helloworld
+
+After creating the project , go to command prompt and type git status and you should see the directories in red color.
+Now you know the drills to make this in to github accont.
