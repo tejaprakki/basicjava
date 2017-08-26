@@ -1,0 +1,13 @@
+package session4homework;
+
+public class Application {
+
+	public static void main(String[] args) {
+		int x;
+
+		for (x = 5; x < 96; x = x + 10) {
+			System.out.println(x);
+
+		}
+	}
+}
